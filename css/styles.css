@@ -130,11 +130,14 @@ display: block;
   color: #2196F3;
 }
 
+.current {
+  color:  #2196F3;
+ }
+
 .contact {
   color: var(--secondary-text-color);
  }
 
- 
 /* секція Герой */
 
 .hero {
@@ -225,14 +228,6 @@ display: block;
   margin-bottom: 50px;
 }
 
-.services-item {
-  display: flex;
-}
-
-.services-img {
-  border: 0;
-}
-
 /*- секція Наша команда */
 
 .team {
@@ -246,6 +241,7 @@ display: block;
 .team-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color:  #FFFFFF;
 }
 
 .team-title {
